@@ -1,2 +1,2 @@
 #!/bin/bash
-echo BEST=School && set | grep BEST | grep -v
+export BEST=School | set | grep BEST
